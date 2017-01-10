@@ -19,7 +19,7 @@
       file: path=/var/www/{{ item.0 }}/{{ item.1 }}/{{ item.2 }} owner=root group=root mode=0755 recurse=yes state=directory
       with_nested:
       - ['html']
-      - ['d.ditelkin.com', 'd1.ditelkin.com', 'd2.ditelkin.com']
+      - ['d.ditelkin.com', 'd1.ditelkin.com', 'd2.ditelkin.com', 'd3.ditelkin.com']
       - ['public_html', 'logs']
 
     - name: Copy demo pages for virtual host.
@@ -33,6 +33,7 @@
         - { src: "index.html", dest: "/var/www/html/d.ditelkin.com/public_html/index.html" }
         - { src: "index1.html", dest: "/var/www/html/d1.ditelkin.com/public_html/index.html" }
         - { src: "index2.html", dest: "/var/www/html/d2.ditelkin.com/public_html/index.html" }
+        - { src: "index3.html", dest: "/var/www/html/d3.ditelkin.com/public_html/index.html" }
       notify:
         - restart apache2
 
@@ -47,6 +48,7 @@
         - { src: 'ditelkin.conf', dest: '/etc/apache2/sites-available/ditelkin.conf' }
         - { src: 'ditelkin1.conf', dest: '/etc/apache2/sites-available/ditelkin1.conf' }
         - { src: 'ditelkin2.conf', dest: '/etc/apache2/sites-available/ditelkin2.conf' }
+        - { src: 'ditelkin3.conf', dest: '/etc/apache2/sites-available/ditelkin3.conf' }
       notify:
         - restart apache2
 
@@ -63,6 +65,7 @@
         - ditelkin.conf
         - ditelkin1.conf
         - ditelkin2.conf
+        - ditelkin3.conf
       notify:
         - restart apache2
 
