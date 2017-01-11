@@ -2,34 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d6d3b8a-bde9-4665-bd12-e048253cb3fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index3.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk1/virtualbox/action_provision" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk1/virtualbox/action_set_name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk1/virtualbox/creator_uid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk1/virtualbox/id" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk1/virtualbox/index_uuid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk1/virtualbox/synced_folders" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk2/virtualbox/action_provision" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk2/virtualbox/action_set_name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk2/virtualbox/creator_uid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk2/virtualbox/id" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk2/virtualbox/index_uuid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk2/virtualbox/synced_folders" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index3.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/apache_debian.iml" afterPath="$PROJECT_DIR$/.idea/apache_debian.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress_install.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk3/virtualbox/action_provision" afterPath="$PROJECT_DIR$/.vagrant/machines/ditelk3/virtualbox/action_provision" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk3/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/ditelk3/virtualbox/action_set_name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk3/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/ditelk3/virtualbox/id" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/ditelk3/virtualbox/index_uuid" afterPath="$PROJECT_DIR$/.vagrant/machines/ditelk3/virtualbox/index_uuid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrantfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache_multi_sites.yaml" afterPath="$PROJECT_DIR$/apache_multi_sites.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ditelkin3.conf" afterPath="$PROJECT_DIR$/ditelkin3.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index1.html" afterPath="$PROJECT_DIR$/index1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index2.html" afterPath="$PROJECT_DIR$/index2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql_install.yaml" afterPath="$PROJECT_DIR$/mysql_install.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php_install.yaml" afterPath="$PROJECT_DIR$/php_install.yaml" />
     </list>
     <ignored path="apache_debian.iws" />
@@ -56,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/apache_multi_sites.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="55" selection-end-column="25" />
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -66,37 +47,47 @@
         <entry file="file://$PROJECT_DIR$/mysql_install.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="44" selection-end-column="41" />
+              <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vagrantfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <file leaf-file-name="wordpress_install.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wordpress_install.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.54505813">
+              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ditelkin3.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ditelkin3.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="php_install.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="php_install.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php_install.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23982558">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index3.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index3.php">
+      <file leaf-file-name="phpmyadmin_install.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpmyadmin_install.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -136,15 +127,18 @@
         <option value="$PROJECT_DIR$/ditelkin1.conf" />
         <option value="$PROJECT_DIR$/ditelkin2.conf" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/apache2.conf" />
-        <option value="$PROJECT_DIR$/ditelkin3.conf" />
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/index1.html" />
         <option value="$PROJECT_DIR$/Vagrantfile" />
         <option value="$PROJECT_DIR$/index3.html" />
-        <option value="$PROJECT_DIR$/mysql_install.yaml" />
-        <option value="$PROJECT_DIR$/apache_multi_sites.yaml" />
+        <option value="$PROJECT_DIR$/apache2.conf" />
+        <option value="$PROJECT_DIR$/phpmyadmin_install.yaml" />
         <option value="$PROJECT_DIR$/php_install.yaml" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/apache_multi_sites.yaml" />
+        <option value="$PROJECT_DIR$/wordpress_install.yaml" />
+        <option value="$PROJECT_DIR$/ditelkin3.conf" />
+        <option value="$PROJECT_DIR$/mysql_install.yaml" />
       </list>
     </option>
   </component>
@@ -158,9 +152,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1899" />
-    <option name="y" value="83" />
-    <option name="width" value="1977" />
+    <option name="x" value="2120" />
+    <option name="y" value="78" />
+    <option name="width" value="2310" />
     <option name="height" value="835" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -898,7 +892,7 @@
       <workItem from="1482580366309" duration="2202000" />
       <workItem from="1483627653787" duration="6912000" />
       <workItem from="1483705474895" duration="596000" />
-      <workItem from="1484047108209" duration="14012000" />
+      <workItem from="1484047108209" duration="21476000" />
     </task>
     <task id="LOCAL-00001" summary="Simple install MySQL with features">
       <created>1484071949159</created>
@@ -912,14 +906,38 @@
       <option name="project" value="LOCAL" />
       <updated>1484134637640</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Simple install PHPMYADMIN subset of LAMP.">
+      <created>1484136769670</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1484136769670</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Activate symbolic link to phpmyadmin.">
+      <created>1484137698825</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1484137698825</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Included link to phpmyadmin.">
+      <created>1484137762145</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1484137762145</updated>
+    </task>
+    <task id="LOCAL-00006" summary="install wordpress">
+      <created>1484157558676</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1484157558676</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25549000" />
+    <option name="totallyTimeSpent" value="33013000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1899" y="83" width="1977" height="835" extended-state="0" />
+    <frame x="2120" y="78" width="2310" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -936,7 +954,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18036176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15388007" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -966,7 +984,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Simple install MySQL with features" />
     <MESSAGE value="Simple install PHP subset of LAMP." />
-    <option name="LAST_COMMIT_MESSAGE" value="Simple install PHP subset of LAMP." />
+    <MESSAGE value="Simple install PHPMYADMIN subset of LAMP." />
+    <MESSAGE value="Activate symbolic link to phpmyadmin." />
+    <MESSAGE value="Included link to phpmyadmin." />
+    <MESSAGE value="install wordpress" />
+    <option name="LAST_COMMIT_MESSAGE" value="install wordpress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1118,14 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ditelkin2.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ditelkin1.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15261628">
@@ -1138,14 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41424417">
           <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apache2.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86918604">
-          <caret line="220" column="44" selection-start-line="220" selection-start-column="44" selection-end-line="220" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1174,14 +1180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ditelkin3.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15261628">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vagrantfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1198,10 +1196,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apache_multi_sites.yaml">
+    <entry file="file://$PROJECT_DIR$/ditelkin2.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="55" selection-end-column="25" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache2.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30232558">
+          <caret line="197" column="74" selection-start-line="197" selection-start-column="74" selection-end-line="197" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.49096385">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="e#6#463#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ditelkin3.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1209,15 +1233,39 @@
     <entry file="file://$PROJECT_DIR$/mysql_install.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="44" selection-end-column="41" />
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache_multi_sites.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php_install.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23982558">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpmyadmin_install.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress_install.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54505813">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
           <folding />
         </state>
       </provider>

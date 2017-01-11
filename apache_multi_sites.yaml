@@ -11,7 +11,6 @@
       apt: name={{ item }} update_cache=yes state=latest
       with_items:
         - apache2
-        - apache2-doc
 
     - name: enabled mod_rewrite
       apache2_module: name=rewrite state=present
@@ -36,7 +35,6 @@
         - { src: "index.html", dest: "/var/www/html/d.ditelkin.com/public_html/index.html" }
         - { src: "index1.html", dest: "/var/www/html/d1.ditelkin.com/public_html/index.html" }
         - { src: "index2.html", dest: "/var/www/html/d2.ditelkin.com/public_html/index.html" }
-        - { src: "index3.php", dest: "/var/www/html/d3.ditelkin.com/public_html/index.php" }
       notify:
         - restart apache2
 
