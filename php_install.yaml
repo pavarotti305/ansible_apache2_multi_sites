@@ -1,0 +1,16 @@
+---
+- hosts: all
+  become: yes
+
+  tasks:
+    - name: Install PHP.
+      apt: name={{ item }} state=latest update_cache=yes cache_valid_time=3600
+      when: ansible_os_family == 'Debian'
+      with_items:
+        - php5
+        - php5-mysql
+        - libapache2-mod-php5
+
+  handlers:
+    - name: restart php modules
+      service: name=php5-fpm state=restarted
